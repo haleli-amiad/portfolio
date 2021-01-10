@@ -1,0 +1,35 @@
+@import '../../assets/scss/setup/mixins';
+@import '../../assets/scss/setup/variables';
+.main-navbar {
+	position: relative;
+	left: 75%;
+    display: block;
+    @include for-normal-layout {
+    left: 50%;        
+    }
+    @include for-mobile-layout {
+        left: 10%;   
+        }
+	wired-card {
+        max-width: 450px;
+		background-color: rgb(250, 200, 195);
+	}
+	.active-page {
+        background-color: #f8ae52;
+        background-color: #69CAA6;
+        background-color: #00BBFF;
+		background-color: #cff64c;
+        // color: #FEEBD6;
+	}
+	margin-top: 3rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+	a:active,
+	a:focus,
+	a:visited,
+	a:hover,
+	a::after {
+		text-decoration: none;
+	}
+}

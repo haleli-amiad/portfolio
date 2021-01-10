@@ -1,0 +1,80 @@
+@import '../../assets/scss/setup/mixins';
+@import '../../assets/scss/setup/variables';
+.divider {
+	wired-divider {
+		max-width: 530px;
+		margin-bottom: 1rem;
+	}
+}
+.about-page {
+	padding-left: 5rem;
+    height: 70vh;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    @include for-normal-layout {
+        height: unset;
+        padding-left: 0;
+    }
+    @include for-mobile-layout {
+        display: unset;
+    }
+	img {
+		max-width: 470px;
+		max-height: 460px;
+		margin-top: 5rem;
+		object-fit: contain;
+		border-radius: 50%;
+        margin-right: 4rem;
+        @include for-wide-layout {
+            max-width: 400px;
+        }
+        @include for-normal-layout {
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+        @include for-mobile-layout {
+            max-width: 300px;
+		}
+	}
+	.main-text {
+        @include for-normal-layout {
+			margin: 0 auto;
+		}
+		h3 {
+			font-size: 1.7rem;
+			display: inline-block;
+            max-width: fit-content;
+            font-weight: bold;
+			span {
+				font-size: 1.1rem;
+			}
+		}
+		wired-card {
+			padding: 20px 30px;
+            background-color: rgb(250, 200, 195);
+            @include for-mobile-layout {
+                padding: 10px;
+                margin: 10px;
+            }
+		}
+        max-width: 78ch;
+        @include for-wide-layout {
+            max-width: 66ch;
+        }
+        @include for-mobile-layout {
+            max-width: 46ch;
+        }
+		p {
+			margin-bottom: 10px;
+			line-height: 1.8;
+            font-weight: bold;
+            @include for-mobile-layout {
+                font-size: 0.9rem;
+            }
+		}
+		.bold {
+			text-transform: uppercase;
+			font-size: 1.1rem;
+		}
+	}
+}

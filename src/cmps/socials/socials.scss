@@ -1,0 +1,51 @@
+@import '../../assets/scss/setup/mixins';
+@import '../../assets/scss/setup/variables';
+.socials {
+	position: relative;
+	top: 90%;
+	left: 5%;
+	@include for-mobile-layout{
+		top: 81%;
+	}
+	@include for-normal-layout {
+
+		// left: unset;
+		// right: 3%;
+		// position: absolute;
+		left: 3%;
+		top: 90%;
+	}
+	wired-card {
+		background-color: rgb(250, 200, 195);
+        width: fit-content;
+        // width: 5rem;
+		height: fit-content;
+		@include for-mobile-layout{
+			width: fit-content;
+		}
+		wired-icon-button:not(:last-of-child) {
+			margin-right: 0.5rem;
+		}
+		wired-icon-button:first-of-type {
+			margin-left: 0.5rem;
+		}
+		wired-icon-button:last-of-type {
+			margin-right: 0.5rem;
+		}
+		wired-icon-button {
+			margin-top: 0.2rem;
+			display: inline-block;
+			margin-bottom: 0.2rem;
+			transition: transform .4s ease-in-out;
+			background-color: #cff64c;
+			border-radius: 100px;
+			height: 34px;
+		}
+		wired-icon-button:hover {
+			transform: scale(1.1);
+		}
+	}
+	.fa-icon {
+		font-size: 1.2rem;
+	}
+}

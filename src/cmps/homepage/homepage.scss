@@ -1,0 +1,58 @@
+@import '../../assets/scss/setup/mixins';
+@import '../../assets/scss/setup/variables';
+.homepage {
+	overflow-y: hidden;
+	height: 70vh;
+	@include for-normal-layout {
+		height: unset;
+	}
+	.main-text {
+		margin-top: 4rem;
+		@include for-mobile-layout {
+			margin-top: 3rem;
+		}
+		span {
+			@include for-tablet-layout {
+				justify-content: unset;
+			}
+		}
+	}
+	h1 {
+		@include for-wide-layout {
+			font-size: 7rem;
+		}
+		@include for-tablet-layout {
+			font-size: 6rem;
+		}
+		// @include for-mobile-layout {
+		// 	font-size: 4rem;
+		// }
+		font-size: 8rem;
+		line-height: 1;
+		// letter-spacing: -1px;
+	}
+	h2 {
+		font-size: 2rem;
+		margin-left: 7px;
+		@include for-wide-layout {
+			font-size: 1.8rem;
+		}
+		@include for-mobile-layout {
+			font-size: 1.4rem;
+			letter-spacing: 1px;
+		}
+	}
+	.prof-img {
+		display: inline-block;
+		width: 450px;
+		border-radius: 50%;
+		@include for-normal-layout {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			width: 400px;
+		}
+		@include for-tablet-layout {
+			width: 300px;
+		}
+	}
+}

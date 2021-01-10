@@ -1,0 +1,56 @@
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+
+    
+
+    @include for-mobile-layout {
+        max-width: initial;
+    }
+
+    @include for-tablet-layout {
+        max-width: $mobile-breakpoint;
+    }
+
+    @include for-normal-layout {
+        max-width: $tablet-breakpoint;
+    }
+
+    @include for-wide-layout {
+        max-width: $normal-breakpoint;
+    }
+}
+.main-layout {
+	display: grid;
+	grid-template-columns: minmax(2rem, 1fr) minmax(auto, 1440px) minmax(2rem, 1fr);
+
+	> * {
+		grid-column: 2;
+	}
+
+	> .full {
+		grid-column: 1 / -1;
+	}
+
+	&#app {
+		min-height: 100vh;
+		grid-template-rows: auto 1fr;
+	}
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-auto-flow: dense;
+	gap: 20px;
+}
+
+// GRIDS
+.simple-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
