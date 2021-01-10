@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1132cb0a.chunk.css",
+    "main.js": "/portfolio/static/js/main.97c0caae.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.97c0caae.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.dee5b022.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.dee5b022.js.map",
+    "static/js/2.15285428.chunk.js": "/portfolio/static/js/2.15285428.chunk.js",
+    "static/js/2.15285428.chunk.js.map": "/portfolio/static/js/2.15285428.chunk.js.map",
+    "static/js/3.89487810.chunk.js": "/portfolio/static/js/3.89487810.chunk.js",
+    "static/js/3.89487810.chunk.js.map": "/portfolio/static/js/3.89487810.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.1132cb0a.chunk.css.map": "/portfolio/static/css/main.1132cb0a.chunk.css.map",
+    "static/js/2.15285428.chunk.js.LICENSE.txt": "/portfolio/static/js/2.15285428.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/portfolio/static/media/grid3.daca19fb.png",
+    "static/media/memit.6e4e765b.jpg": "/portfolio/static/media/memit.6e4e765b.jpg",
+    "static/media/mika1.7e600536.png": "/portfolio/static/media/mika1.7e600536.png",
+    "static/media/minesweeper.7bb66c9e.jpg": "/portfolio/static/media/minesweeper.7bb66c9e.jpg",
+    "static/media/misterbitcoin.546f5341.jpg": "/portfolio/static/media/misterbitcoin.546f5341.jpg",
+    "static/media/prof3.75392da8.png": "/portfolio/static/media/prof3.75392da8.png",
+    "static/media/webix.addea2b3.jpg": "/portfolio/static/media/webix.addea2b3.jpg",
+    "static/media/yesshecan.16b11ccf.jpg": "/portfolio/static/media/yesshecan.16b11ccf.jpg",
+    "static/media/youdoob.b94e4c21.jpg": "/portfolio/static/media/youdoob.b94e4c21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dee5b022.js",
+    "static/js/2.15285428.chunk.js",
+    "static/css/main.1132cb0a.chunk.css",
+    "static/js/main.97c0caae.chunk.js"
+  ]
+}
