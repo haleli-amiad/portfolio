@@ -20,14 +20,11 @@ export class About extends Component {
 					/>
 					<span className="main-text flex justify-center column wrap">
 						<wired-card elevation="2">
-							<h3>I'm truly happy to see you here!</h3>
-							<span className="divider">
-								<wired-divider />
-							</span>
+							{/* <h3>Nice to meet ya</h3> */}
 							{/* <p>(It's means something like Hallelujah.)</p> */}
 							<p>
 								{/* It's great to see you here! */}
-								My name is Haleli (it means something like Hallelujah), I'm 28 years old, Israeli, who
+								Hey ya! My name is Haleli (it means something like Hallelujah), I'm 28 years old, Israeli, who
 								has the great pleasure of living in Rome over the last three years. Pizza life chose me
 								and I had to obey.
 							</p>

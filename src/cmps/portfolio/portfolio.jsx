@@ -19,17 +19,18 @@ export class Portfolio extends Component {
 				img: webix
 			},
 			{
-				name: 'MineSweeper',
-				desc: 'The old good game with a different design',
-				linkTo: 'https://haleli-amiad.github.io/minesweeper/',
-				techs: 'Vanilla JS',
-				img: minesweeper
+				name: 'Mister Bitcoin',
+				desc: 'App that allows to keep track on rates and transfer bitcoins',
+				linkTo: 'https://haleli-amiad.github.io/mrBitcoin/',
+				techs: 'React',
+				img: misterbitcoin
 			},
+
 			{
 				name: 'Memit',
 				desc: "Meme Generator - 90's cartoons themed",
 				linkTo: 'https://haleli-amiad.github.io/meme-gen/',
-				techs: 'Vanilla JS',
+				techs: 'Vanilla JS, Canvas',
 				img: memit
 			},
 			{
@@ -40,18 +41,18 @@ export class Portfolio extends Component {
 				img: yesshecan
 			},
 			{
-				name: 'Mister Bitcoin',
-				desc: 'App that allows to keep track on rates and transfer bitcoins',
-				linkTo: 'https://haleli-amiad.github.io/mrBitcoin/',
-				techs: 'React',
-				img: misterbitcoin
-			},
-			{
 				name: 'YouDoob',
 				desc: 'Music player based on YouTube API',
 				linkTo: 'https://haleli-amiad.github.io/youdoob/#/',
 				techs: 'Vue.js',
 				img: youdoob
+			},
+			{
+				name: 'MineSweeper',
+				desc: 'The old good game with a different design',
+				linkTo: 'https://haleli-amiad.github.io/minesweeper/',
+				techs: 'Vanilla JS',
+				img: minesweeper
 			}
 		]
 	};
@@ -69,10 +70,10 @@ export class Portfolio extends Component {
 						<motion.div
 							className="project"
 							whileHover={{
-								scale: 1.03,
+								scale: 1.01,
 								originZ: 0
 							}}
-							whileTap={{ scale: 1.03 }}
+							whileTap={{ scale: 1.01 }}
 							transition={{ type: 'tween', stiffness: 300, duration: 0.6 }}
 							key={project.name}
 						>

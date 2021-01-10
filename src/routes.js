@@ -11,7 +11,7 @@ const Routes = [
         component: About,
     },
     {
-        path: '/portfolio',
+        path: '/projects',
         component: Portfolio,
     },
 ]

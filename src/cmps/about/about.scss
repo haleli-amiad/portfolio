@@ -7,7 +7,8 @@
 	}
 }
 .about-page {
-	padding-left: 5rem;
+    padding-left: 5rem;
+    margin-top: 2rem;
     height: 70vh;
     flex-wrap: wrap;
     letter-spacing: 1px;
@@ -17,6 +18,7 @@
     }
     @include for-mobile-layout {
         display: unset;
+        margin: 0 auto;
     }
 	img {
 		max-width: 470px;
@@ -39,6 +41,9 @@
 	.main-text {
         @include for-normal-layout {
 			margin: 0 auto;
+        }
+        @include for-tablet-layout {
+			margin: unset;
 		}
 		h3 {
 			font-size: 1.7rem;
@@ -62,7 +67,7 @@
             max-width: 66ch;
         }
         @include for-mobile-layout {
-            max-width: 46ch;
+            max-width: 50ch;
         }
 		p {
 			margin-bottom: 10px;
