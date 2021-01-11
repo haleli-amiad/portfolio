@@ -8,7 +8,7 @@
 }
 .about-page {
     padding-left: 5rem;
-    margin-top: 2rem;
+    // margin-top: 2rem;
     height: 70vh;
     flex-wrap: wrap;
     letter-spacing: 1px;
@@ -56,7 +56,8 @@
 		}
 		wired-card {
 			padding: 20px 30px;
-            background-color: rgb(250, 200, 195);
+            background-color: #f9f5ef;
+            color: #575757;
             @include for-mobile-layout {
                 padding: 10px;
                 margin: 10px;

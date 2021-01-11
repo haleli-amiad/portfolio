@@ -6,6 +6,19 @@
 	@include for-normal-layout {
 		height: unset;
 	}
+	wired-button {
+		margin-top: 1rem;
+		margin-left: 0.4rem;
+		width: fit-content;
+		background-color: #f9f5ef;
+		a {
+			font-weight: bolder;
+			padding: 10px 40px;
+			font-size: 1.1rem;
+			width: 100%;
+			text-decoration: none;
+		}
+	}
 	.main-text {
 		margin-top: 4rem;
 		@include for-mobile-layout {
@@ -24,12 +37,8 @@
 		@include for-tablet-layout {
 			font-size: 6rem;
 		}
-		// @include for-mobile-layout {
-		// 	font-size: 4rem;
-		// }
 		font-size: 8rem;
 		line-height: 1;
-		// letter-spacing: -1px;
 	}
 	h2 {
 		font-size: 2rem;

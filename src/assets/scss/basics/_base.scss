@@ -22,6 +22,7 @@ body {
 	background-size: 90% 80%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+
 	@include for-mobile-layout{
 		background-size: cover;
 	}
@@ -37,10 +38,14 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+span {
 	margin: 0;
-	font-weight: normal;
+	// font-weight: normal;
 	padding: 0;
+	&::selection {
+		background: #B4F065;
+	  }
 }
 
 h1{
@@ -49,7 +54,7 @@ h1{
 h2{
 	color: $clr3;
 	// font-family: robotomono, sans-serif;
-	font-weight: bold;
+	// font-weight: bold;
 	letter-spacing: -1px;
 }
 

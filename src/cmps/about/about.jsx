@@ -20,26 +20,13 @@ export class About extends Component {
 					/>
 					<span className="main-text flex justify-center column wrap">
 						<wired-card elevation="2">
-							{/* <h3>Nice to meet ya</h3> */}
-							{/* <p>(It's means something like Hallelujah.)</p> */}
 							<p>
-								{/* It's great to see you here! */}
 								Hey ya! My name is Haleli (it means something like Hallelujah), I'm 28 years old, Israeli, who
 								has the great pleasure of living in Rome over the last three years. Pizza life chose me
 								and I had to obey.
 							</p>
-							{/* <p>
-								When I was 10 years old I built a website (It was just HTML and CSS back then) that
-								provides banners and logos that I created with Photoshop, It took another 17 years to
-								figure out that's what I want to do in life.
-							</p> */}
-							{/* <p>
-								Vue.js, Vuex, React, Redux, Angular, Rxjs, Node.js, MongoDB, REST API's, Sass, Git
-								workflow are just part of the tools I own, and I can't wait to get some more.
-							</p> */}
 							<p>
 								My favorite part about coding is watching the combination of shapes - letters - become a beautiful and functional digital product.
-								{/* I enjoy design almost as much I enjoy coding,  */}
 							</p>
 							<p>
 								<span className="bold"> i want to be a part of something great. </span>
@@ -48,7 +35,7 @@ export class About extends Component {
 							</p>
 							<p>
 								Vue.js, Vuex, React, Redux, Angular, Rxjs, Node.js, MongoDB, REST API's, Sass, Git
-								workflow are just part of the tools I own, and I constantly trying to learn them deeper, and pick some more.
+								workflow are just part of the tools I own, and I'm constantly trying to learn deeper, and pick some more.
 							</p>
 						</wired-card>
 					</span>

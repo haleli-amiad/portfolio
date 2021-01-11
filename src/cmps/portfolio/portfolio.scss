@@ -17,16 +17,15 @@
 		width: 21rem;
 		height: 17.5rem;
 		margin: 1rem;
-		padding: 10px;
+		padding: 15px;
         font-family: 'montserrat', sans-serif;
-        font-family: robotomono, sans-serif;
+		font-family: robotomono, sans-serif;
 		h4 {
 			font-size: 1.1rem;
 			font-weight: bold;
 		}
 		h5 {
             font-size: 0.8rem;
-            // width: 26ch;
             text-align: center;
             letter-spacing: 1px;
             margin: 0 auto;
@@ -34,12 +33,11 @@
 		> * {
             text-decoration: none;
 		}
-		// box-shadow: 8px 8px 8px rgba(165, 165, 165, 0.24);
 		background-color: rgb(250, 200, 195);
+		background-color: #f9f5ef;
 		wired-image {
-            // height: 150px;
 			margin-top: 10px;
-			margin-bottom: 10px;
+			// margin-bottom: 10px;
             width: 100%;
             object-fit: cover;
             img{
@@ -51,13 +49,8 @@
 		}
 	}
 	h6 {
-        // position: relative;
-		// // transform: rotate(90deg);
-		// top: -20.3rem;
-		// left: 50%;
         font-weight: bold;
 		margin-top: 0.3rem;
 		font-size: 0.8rem;
-		// font-family: 'montserrat', sans-serif;
 	}
 }

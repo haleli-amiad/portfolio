@@ -17,6 +17,7 @@
 	}
 	wired-card {
 		background-color: rgb(250, 200, 195);
+		background-color: #f9f5ef;
         width: fit-content;
         // width: 5rem;
 		height: fit-content;
@@ -37,12 +38,12 @@
 			display: inline-block;
 			margin-bottom: 0.2rem;
 			transition: transform .4s ease-in-out;
-			background-color: #cff64c;
+			background-color: #B4F065;
 			border-radius: 100px;
 			height: 34px;
 		}
 		wired-icon-button:hover {
-			transform: scale(1.1);
+			transform: scale(1.05);
 		}
 	}
 	.fa-icon {
