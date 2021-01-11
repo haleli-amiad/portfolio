@@ -28,7 +28,7 @@ export class About extends Component {
 							</p>
 							<p>
 								<span className="bold"> i want to be a part of something great. </span>
-								I profoundly believe in good karma and that is what I bring to the table. It might sound cheesy but it’s the truth.
+								I profoundly believe in good karma and that is what I'm trying to bring to the table.
 							</p>
 							<p>
 								Vue.js, Vuex, React, Redux, Angular, Rxjs, Node.js, MongoDB, REST API's, Sass, Git

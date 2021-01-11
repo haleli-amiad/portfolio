@@ -70,10 +70,10 @@ export class Portfolio extends Component {
 						<motion.div
 							className="project"
 							whileHover={{
-								scale: 1.01,
+								scale: 1.03,
 								originZ: 0
 							}}
-							whileTap={{ scale: 1.01 }}
+							whileTap={{ scale: 1.03 }}
 							transition={{ type: 'tween', stiffness: 300, duration: 0.6 }}
 							key={project.name}
 						>
