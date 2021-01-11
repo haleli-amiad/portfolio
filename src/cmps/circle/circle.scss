@@ -1,0 +1,12 @@
+@import '../../assets/scss/setup/mixins';
+@import '../../assets/scss/setup/variables';
+.circle {
+    position: absolute;
+    z-index: -1;
+    width: 150px;
+    left: 90%;
+    top: 1%;
+    @include for-normal-layout {
+display: none;
+	}
+}

@@ -38,7 +38,7 @@
 			display: inline-block;
 			margin-bottom: 0.2rem;
 			transition: transform .4s ease-in-out;
-			background-color: #B4F065;
+			background-color: rgb(250, 93, 45);
 			border-radius: 100px;
 			height: 34px;
 		}
@@ -47,6 +47,7 @@
 		}
 	}
 	.fa-icon {
+		color: #1d1d1d;
 		font-size: 1.2rem;
 	}
 }

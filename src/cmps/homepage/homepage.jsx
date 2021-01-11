@@ -39,7 +39,6 @@ export class Homepage extends Component {
 						<motion.img className="prof-img" src={homePageImgProf} alt="" />
 					</span>
 				</span>
-
 			</motion.div>
 		);
 	}

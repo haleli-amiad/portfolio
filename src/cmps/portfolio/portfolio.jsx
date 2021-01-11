@@ -69,12 +69,12 @@ export class Portfolio extends Component {
 					{projects.map((project) => (
 						<motion.div
 							className="project"
-							whileHover={{
-								scale: 1.03,
-								originZ: 0
-							}}
-							whileTap={{ scale: 1.03 }}
-							transition={{ type: 'tween', stiffness: 300, duration: 0.6 }}
+							// whileHover={{
+							// 	scale: 1.03,
+							// 	originZ: 0
+							// }}
+							// whileTap={{ scale: 1.03 }}
+							// transition={{ type: 'tween', stiffness: 300, duration: 0.2 }}
 							key={project.name}
 						>
 							<wired-card>

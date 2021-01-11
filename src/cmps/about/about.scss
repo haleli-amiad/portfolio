@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     letter-spacing: 1px;
     @include for-normal-layout {
+        margin-top: 2rem;
         height: unset;
         padding-left: 0;
     }
@@ -32,7 +33,7 @@
         }
         @include for-normal-layout {
             margin: 0 auto;
-            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
         @include for-mobile-layout {
             max-width: 300px;
@@ -43,7 +44,8 @@
 			margin: 0 auto;
         }
         @include for-tablet-layout {
-			margin: unset;
+            margin: unset;
+            margin-bottom: 2rem;
 		}
 		h3 {
 			font-size: 1.7rem;
@@ -57,7 +59,7 @@
 		wired-card {
 			padding: 20px 30px;
             background-color: #f9f5ef;
-            color: #575757;
+            color: #3b3b3b;
             @include for-mobile-layout {
                 padding: 10px;
                 margin: 10px;
