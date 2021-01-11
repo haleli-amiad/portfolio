@@ -29,7 +29,7 @@ export class Homepage extends Component {
 								whileTap={{ scale: 1.04 }}
 								transition={{ type: 'tween', stiffness: 300, duration: 0.6 }}
 							>
-								<wired-button>
+								<wired-button elevation="4">
 									<Link className="cta-btn" to="/about">
 										Nice to meet you →
 									</Link>
