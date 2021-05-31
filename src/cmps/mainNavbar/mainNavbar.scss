@@ -2,28 +2,68 @@
 @import '../../assets/scss/setup/variables';
 .main-navbar {
 	position: relative;
-	left: 75%;
-	display: block;
+	text-transform: uppercase;
+	left: 73.5vw;
+	width: fit-content;
+	background-color: #f9f5ef;
+	top: .6rem;
+	border: 2px solid $clr1;
+	padding: 15px 10px;
+	@include for-mobile-layout {
+		padding: 15px 2px;
+	}
+	@include for-extra-layout {
+		font-size: .9rem;
+	}
+	@include for-wide-layout{
+		left: 65vw;
+	}
 	@include for-normal-layout {
 		display: flex;
-		position: unset;
+		left: 50%;
+		transform: translateX(-50%);
+		// position: unset;
 		margin-bottom: 1rem;
 	}
-	wired-card {
-		min-width: 330px;
-		max-width: 400px;
-		background-color: #f9f5ef;
-		@include for-normal-layout {
-			margin: 0 auto;
-		}
-		wired-tab{
-			padding: 10px;
+	.nav-link{
+		width: 50px;
+		border: 2px solid transparent;
+		padding: 2px 10px;
+		@include for-mobile-layout {
+			padding: 2px 7px;
 		}
 	}
+	a:nth-of-type(2) {
+		margin-left: 10px;
+		margin-right: 10px;
+		@include for-mobile-layout {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+	// // wired-card {
+	// 	min-width: 330px;
+	// 	max-width: 350px;
+	// 	background-color: #f9f5ef;
+	// 	@include for-normal-layout {
+	// 		margin: 0 auto;
+	// 	}
+	// 	wired-tab{
+	// 		padding: 10px;
+	// 	}
+	// // }
 	.active-page {
-		color: #1d1d1d;
-		font-weight: bold;
-		background-color: rgb(250, 93, 45);
+		// color: $clr1;
+		// font-weight: bold;
+		// outline: 2px solid $clr3;
+		// border-color: $clr3;
+		color: $clr5;
+		// transform: translate3d(7%);
+		// border-left: 1px solid #000;
+		background-color:$clr1;
+		// border-right: 1px solid #000;
+		// border-bottom: 1px solid #000;
+		// background-color: #cbcbcbb0;
 	}
 	margin-top: 3rem;
 	letter-spacing: 2px;

@@ -4,11 +4,11 @@
 
 html {
 
-	font-family: robotomono, sans-serif;
+	font-family: montserrat-reg, sans-serif;
 	// font-family: montserrat, sans-serif;
 	font-size: 16px;
 	scroll-behavior: smooth;
-	background-color:$clr1;
+	background-color:$clr4;
 	color: $clr2;
 	-webkit-font-smoothing: antialiased;
 }
@@ -17,7 +17,7 @@ html {
 body {
 	margin: 0;
 	min-height: 90vh;
-	background-image: url(../../img/grid3.png);
+	// background-image: url(../../img/grid3.png);
 	background-position: center;
 	background-size: 90% 80%;
 	background-attachment: fixed;
@@ -44,12 +44,12 @@ span {
 	// font-weight: normal;
 	padding: 0;
 	&::selection {
-		background: rgb(250, 93, 45);;
+		background: $clr5;
 	  }
 }
 
 h1{
-	font-family: poppinsBold, sans-serif;
+	font-family: montserrat, sans-serif;
 }
 h2{
 	color: $clr3;

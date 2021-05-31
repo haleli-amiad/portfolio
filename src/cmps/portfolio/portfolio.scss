@@ -2,7 +2,8 @@
 @import '../../assets/scss/setup/variables';
 .portfolio {
     text-align: center;
-	height: 70vh;
+	// height: 70vh;
+	margin-top: 4rem;
 	@include for-normal-layout {
         height: unset;
 	}
@@ -13,21 +14,29 @@
         flex-wrap: wrap;
        justify-content: center;
 	}
-	wired-card {
+	a {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 15rem;
+	}
+	.card {
+		border: 2px solid $clr1;
 		position: relative;
-		width: 21rem;
-		height: 17.5rem;
+		width: 19rem;
+		height: 17rem;
 		margin: 1rem;
 		padding: 15px;
-        font-family: 'montserrat', sans-serif;
-		font-family: robotomono, sans-serif;
+        // font-family: 'montserrat', sans-serif;
+		font-family:montserrat-reg, sans-serif;
 		transition: all .4s ease;
 		&:hover{
-			color: rgb(250, 93, 45);
+			color: $clr1;
 		}
 		h4 {
+			font-family:montserrat, sans-serif;
 			font-size: 1.1rem;
-			font-weight: bold;
+			// font-weight: bold;
 		}
 		h5 {
             font-size: 0.8rem;
@@ -39,18 +48,19 @@
             text-decoration: none;
 		}
 		background-color: #f9f5ef;
-		wired-image {
+		// wired-image {
 			margin-top: 10px;
 			// margin-bottom: 10px;
-            width: 100%;
+            // width: 100%;
             object-fit: cover;
             img{
+				border: 2px solid $clr1;
                 width: 300px;
                 height: 150px;
                 object-fit: cover;
                 
             }
-		}
+		// }
 	}
 	h6 {
         font-weight: bold;

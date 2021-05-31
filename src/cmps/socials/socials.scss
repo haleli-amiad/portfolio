@@ -1,53 +1,51 @@
-@import '../../assets/scss/setup/mixins';
-@import '../../assets/scss/setup/variables';
+@import "../../assets/scss/setup/mixins";
+@import "../../assets/scss/setup/variables";
 .socials {
-	position: relative;
-	top: 90%;
-	left: 5%;
-	@include for-mobile-layout{
-		top: 81%;
+	position: absolute;
+	top: 90vh;
+	left: 3vw;
+	@include for-mobile-layout {
+		position: relative;
+		bottom: -11rem;
+	}
+	@include for-extra-layout {
+		bottom: -4rem;
 	}
 	@include for-normal-layout {
-
-		// left: unset;
-		// right: 3%;
-		// position: absolute;
 		left: 3%;
 		top: 90%;
 	}
-	wired-card {
-		background-color: rgb(250, 200, 195);
+	footer {
 		background-color: #f9f5ef;
-        width: fit-content;
-        // width: 5rem;
+		border: 2px solid $clr1;
+		padding: 7px 20px;
+		width: fit-content;
 		height: fit-content;
-		@include for-mobile-layout{
+		@include for-mobile-layout {
 			width: fit-content;
 		}
-		wired-icon-button:not(:last-of-child) {
-			margin-right: 0.5rem;
+		.soc-btn:first-of-type {
+			margin-left: 0.4rem;
 		}
-		wired-icon-button:first-of-type {
-			margin-left: 0.5rem;
+		.soc-btn:last-of-type {
+			margin-right: 0.4rem;
 		}
-		wired-icon-button:last-of-type {
-			margin-right: 0.5rem;
-		}
-		wired-icon-button {
-			margin-top: 0.2rem;
+		.soc-btn {
 			display: inline-block;
-			margin-bottom: 0.2rem;
-			transition: transform .4s ease-in-out;
-			background-color: rgb(250, 93, 45);
-			border-radius: 100px;
-			height: 34px;
+			transition: transform 0.4s ease-in-out;
+			padding: 3px 5px;
+			// border-radius: 100px;
 		}
-		wired-icon-button:hover {
+		.soc-btn:hover {
 			transform: scale(1.05);
+			background-color: $clr1;
+			.fa-icon {
+				color: $clr5;
+			}
 		}
 	}
 	.fa-icon {
-		color: #1d1d1d;
-		font-size: 1.2rem;
+		color: $clr1;
+		font-size: 1.7rem;
 	}
 }

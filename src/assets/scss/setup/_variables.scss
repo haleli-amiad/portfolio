@@ -2,15 +2,16 @@
 // $clr1: rgb(250, 200, 195);
 // $clr1: rgb(250, 200, 195);
 // $clr1: #ffdbd2;
-$clr1: #fdfdfd;
-$clr2: #3b3b3b;
-$clr3: #3b3b3bcb;
-$clr4: #f9cb07;
+$clr1: #1f1f1f;
+$clr2: #1f1f1f;
+$clr3: #1f1f1fcb;
+$clr4: #fdfdfd;
 $clr5:  rgb(242, 242, 242);
 
 
 // Breakpoints
+$extra-mobile-breakpoint: 400px;
 $mobile-breakpoint: 600px;
-$tablet-breakpoint: 800px;
-$normal-breakpoint: 1240px;
+$tablet-breakpoint: 910px;
+$normal-breakpoint: 1280px;
 $wide-breakpoint: 1450px;

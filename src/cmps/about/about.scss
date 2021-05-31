@@ -1,88 +1,100 @@
-@import '../../assets/scss/setup/mixins';
-@import '../../assets/scss/setup/variables';
-.divider {
-	wired-divider {
-		max-width: 530px;
-		margin-bottom: 1rem;
-	}
-}
+@import "../../assets/scss/setup/mixins";
+@import "../../assets/scss/setup/variables";
+
 .about-page {
-    padding-left: 5rem;
-    // margin-top: 2rem;
-    height: 70vh;
+    // height: 70vh;
     flex-wrap: wrap;
     letter-spacing: 1px;
+    margin-top: 4rem;
     @include for-normal-layout {
         margin-top: 2rem;
         height: unset;
         padding-left: 0;
     }
     @include for-mobile-layout {
-        display: unset;
-        margin: 0 auto;
+        margin-top: 6rem;
     }
-	img {
-		max-width: 470px;
-		max-height: 460px;
-		margin-top: 5rem;
-		object-fit: contain;
-		border-radius: 50%;
-        margin-right: 4rem;
-        @include for-wide-layout {
-            max-width: 400px;
-        }
+    @include for-extra-layout {
+        margin-top: 0;
+    }
+    @include for-wide-layout{ 
+        margin-top: 8rem;
+    }
+    .content-container {
         @include for-normal-layout {
+            margin-top: 3rem;
+        }
+        img {
+            max-width: 470px;
+            max-height: 460px;
+            object-fit: contain;
+            position: absolute;
+            transform: rotate(-13deg) translateX(-55%);
+            top: -119%;
+            left: 50%;
+            z-index: 3;
+            @include for-wide-layout {
+                top: -140%;
+            }
+            @include for-normal-layout {
+                top: -18rem;
+                max-width: 320px;
+                left: 40%;
+            }
+            @include for-mobile-layout {
+                top: -19.2rem;
+                left: 48%;
+            }
+            @include for-extra-layout {
+                max-width: 280px;
+                max-width: 300px;
+                top: -17.5rem;
+            }
+        }
+        .main-text {
+            transform: translate(0, 8rem);
+            @include for-normal-layout {
+                transform: translate(0, 5rem);
+            }
+            @include for-mobile-layout {
+                transform: translate(0, 6rem);
+            }
+            @include for-extra-layout {
+                transform: translate(0, 2rem);
+            }
+            h3 {
+                font-size: 1.7rem;
+                display: inline-block;
+                max-width: fit-content;
+                font-weight: bold;
+                span {
+                    font-size: 1.1rem;
+                }
+            }
+            .text {
+                padding: 3rem 30px;
+                text-align: left;
+                background-color: #f9f5ef;
+                color: #1f1f1f;
+                height: fit-content;
+                border: 2px solid $clr1;
+                @include for-mobile-layout {
+                    padding: 25px;
+                }
+            }
+            max-width: 50vw;
             margin: 0 auto;
-            margin-bottom: 2rem;
-        }
-        @include for-mobile-layout {
-            max-width: 300px;
-		}
-	}
-	.main-text {
-        @include for-normal-layout {
-			margin: 0 auto;
-        }
-        @include for-tablet-layout {
-            margin: unset;
-            margin-bottom: 2rem;
-		}
-		h3 {
-			font-size: 1.7rem;
-			display: inline-block;
-            max-width: fit-content;
-            font-weight: bold;
-			span {
-				font-size: 1.1rem;
-			}
-		}
-		wired-card {
-			padding: 20px 30px;
-            background-color: #f9f5ef;
-            color: #3b3b3b;
-            @include for-mobile-layout {
-                padding: 10px;
-                margin: 10px;
+            @include for-wide-layout {
+                max-width: 100%;
             }
-		}
-        max-width: 78ch;
-        @include for-wide-layout {
-            max-width: 66ch;
-        }
-        @include for-mobile-layout {
-            max-width: 50ch;
-        }
-		p {
-			margin-bottom: 10px;
-			line-height: 1.8;
-            font-weight: bold;
-            @include for-mobile-layout {
-                font-size: 0.9rem;
+            p {
+                margin-bottom: 10px;
+                line-height: 1.4;
+                font-weight: bold;
+                @include for-mobile-layout {
+                    font-size: 0.9rem;
+                }
             }
-		}
-		.bold {
-			text-transform: uppercase;
-			font-size: 1.1rem;
-		}
-	}
+        }
+    }
 }
