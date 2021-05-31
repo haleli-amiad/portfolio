@@ -3,8 +3,7 @@ import 'wired-elements';
 import './portfolio.scss';
 import { motion } from 'framer-motion';
 
-
-import {projects} from '../../data'
+import { projects } from '../../data';
 export class Portfolio extends Component {
 	render() {
 		return (
